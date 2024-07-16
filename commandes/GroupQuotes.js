@@ -19,7 +19,7 @@ zokou({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions)
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *Lucky md v5*`);
+Powered by *Boniphace md*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -37,7 +37,7 @@ Powered by *Lucky md v5*`);
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *LUCKY_MD V5*`);
+Powered by *BONIPHACE-MD*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
