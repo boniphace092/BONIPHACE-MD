@@ -1,0 +1,109 @@
+{
+  "name":"LUCKY_MD V5",
+  "description":"Hi there, I am LUCKY MD V5 Whatsapp Chuddy Buddy built in NodeJs to make experience better. Incase of Any Problem Whatsapp me on:255686745716,255764182801,255620814108",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://telegra.ph/file/953fe6ab20e38dcc8cc2e.jpg",
+  "repository":"https://github.com/HACKING995/HACKING956",
+  "succes_url":"/",
+  "stack":"container",
+  "env":{
+    "PREFIX":
+    {
+      "description":"choose your prefix of bot set all if you want your bot to run in multiple prefix 🤞",
+      "value":".",
+      "required":true
+    },
+    "AUTO_READ_STATUS":
+    {
+      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"yes",
+      "required":false
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+     "PM_PERMIT" :
+     {
+      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":"LUCKY_MD V5☄️",
+      "required":false
+
+    } ,
+     "BOT_MENU_LINKS" : {
+    
+      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"https://telegra.ph/file/953fe6ab20e38dcc8cc2e.jpg,https://telegra.ph/file/60cd0a18bda777a41ffe3.jpg,https://telegra.ph/file/59ead3c2b58ca1b07734d.jpg",
+      "required":false
+       
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "value":"no",
+      "required":false
+    
+    }  
+	  ,
+    "SESSION_ID":
+    {
+      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "value":"",
+      "required":true
+      
+    },
+    "OWNER_NAME":
+    {
+    
+    "desc": "Your Name",
+    "required": false,
+    "value": "FREDIE_TECH 🫶"
+  },
+    "NUMERO_OWNER":
+  {
+    
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "required":false,
+    "value": "255686745716,255764182801,255620814108"
+  },
+    "WARN_COUNT":
+  {
+    "desc": "this is the limit of warn for warning commandes",
+    "required": false,
+    "value": "5"
+
+  },
+  "PRESENCE":{
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"1",
+    "required": false
+  },
+  "ANTI_DELETE_MESSAGE" : {
+    "description": "if you want to enable anti delete message put yes else put no",
+    "value": "false",
+    "required": true
+  }
+  },
+
+  "formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	},
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
+    }
+  ]
+}
